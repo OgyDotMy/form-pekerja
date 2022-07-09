@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.header {
+  background-color: rgb(15, 15, 15);
+}
+.header-logo h1 a {
+  text-decoration: none;
+  color: rgb(192, 59, 59);
+}
+.header-menu a {
+  text-decoration: none;
+  color: rgb(192, 59, 59);
+  padding: 5px;
+  font-weight: 600;
+}
+.header-menu a a:hover {
+  background-color: red;
+  color: black;
+}
+
+.content p {
+  font-size: 28px;
+}
+.content input {
+  width: 100%;
+}
+.content input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.content input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.content input[type=number] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+.content input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.content button {
+  background-color: whitesmoke;
+  color: black;
+  padding: 7px 13px;
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */
